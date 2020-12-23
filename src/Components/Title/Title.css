@@ -1,0 +1,27 @@
+.Title .edit-icon {
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.Title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: cursive;
+  height: 80px;
+  width: 600px;
+  border-radius: 1%;
+  background-color: #c0c0c0;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Title:hover .edit-icon {
+  opacity: 10;
+}
+
+.Title .form-control {
+  height: 50px;
+  font-size: 24px;
+}
